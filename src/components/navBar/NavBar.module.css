@@ -1,0 +1,25 @@
+.nav__list {
+    display: flex;
+    justify-content: space-around;
+    padding-inline-start: 20px;
+    list-style-type: none;
+}
+
+.nav__list li {
+    list-style: none;
+}
+
+.item {
+    text-decoration: none;
+    color: #464663;
+    font-size: 1.2vw;
+    font-weight: 500;
+}
+
+.active {
+    text-decoration: none;
+    color: #464663;
+    font-size: 1.2vw;
+    font-weight: 500;
+    text-shadow: 0 0 10px #fd1d1d;
+}

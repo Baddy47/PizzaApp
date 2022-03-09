@@ -1,0 +1,17 @@
+.table {
+    border-collapse: collapse;
+}
+
+.table a {
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+}
+
+.table__item_vegan a {
+    color: green;
+}
+
+.table__item_noEats a {
+    color: grey;
+}

@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 80vw;
+    align-items: flex-end;
+    margin-left: auto;
+    padding-right: 5vw;
+}
+
+.container__wrapper {
+    text-align: center;
+}
+
+.pizza {
+    width: 20vw;
+    height: 20vw;
+    border: 1vw solid #F6AD38;
+    border-radius: 50%;
+    background: url("../../assets/pizza__fon.png") no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+
+.pizza__slice:not(:last-child) {
+    width: .2vw;
+    height: 22.05vw;
+    background-color: white;
+    position: absolute;
+    top: -1.1vw;
+    right: 9.9vw;
+    z-index: 100;
+}
